@@ -17,5 +17,5 @@ TEST(Example, MAC)
 
 TEST(Example2, plsFail)
 {
-    EXPECT_FALSE(true;
+    EXPECT_FALSE(true);
 }
