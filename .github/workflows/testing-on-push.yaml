@@ -24,6 +24,6 @@ jobs:
       run: cmake --version
 
     - name: Configure CMake
-      run: cmake -B build
+      run: cmake -B ${{github.workspace}}/build
     - name: Build
-      run: cmake --build ./build
+      run: cmake --build ${{github.workspace}}/build
