@@ -26,5 +26,6 @@ jobs:
         ls -l
         pwd
         CC=clang CXX=clang++ cmake -S . -B build
+      working-directory: /home/runner/work/testTheAction/testTheAction
     - name: Build
       run: cmake --build ${{github.workspace}}/build
