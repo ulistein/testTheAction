@@ -21,7 +21,7 @@ jobs:
     - name: contents
       run: ls -l
     - name: cmakeVersion
-      run: cmake -v
+      run: cmake --version
 
     - name: Configure CMake
       run: cmake -B build
