@@ -3,6 +3,7 @@
 
 int MAC(int x, int y, int& sum)
 {
-    return 0;
+    sum += x * y;
+    return sum;
 }
 

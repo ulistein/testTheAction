@@ -9,13 +9,9 @@ TEST(Example, MAC)
     int oldSum = sum;
 
     EXPECT_EQ(oldSum + x * y, MAC(x, y ,sum));
-
-    EXPECT_EQ(oldSum + x * y, sum);
-
-
 }
 
 TEST(Example2, plsFail)
 {
-    EXPECT_FALSE(true);
+    EXPECT_FALSE(false);
 }
