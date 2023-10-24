@@ -21,6 +21,8 @@ jobs:
 
     - name: Create Build Directory
       run: cmake -E make_directory ${{github.workspace}}/build
+      run: pwd
+      run: ls -l
 
     - name: Configure CMake
       run: cmake -S . -B build
