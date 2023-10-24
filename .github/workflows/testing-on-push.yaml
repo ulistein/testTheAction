@@ -20,6 +20,8 @@ jobs:
       run: pwd
     - name: contents
       run: ls -l
+    - name: cmakeVersion
+      run: cmake -v
 
     - name: Configure CMake
       run: cmake -B build
