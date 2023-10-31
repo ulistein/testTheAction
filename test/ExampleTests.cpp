@@ -1,17 +1,10 @@
 #include <gtest/gtest.h>
 #include "../header/Example.hpp"
 
-TEST(Example, MAC)
+TEST(Example, sum)
 {
     int x = 42;
     int y = 16;
-    int sum = 100;
-    int oldSum = sum;
-
-    EXPECT_EQ(oldSum + x * y, MAC(x, y ,sum));
+    EXPECT_EQ(58, sum(x, y));
 }
 
-TEST(Example2, plsFail)
-{
-    EXPECT_FALSE(false);
-}

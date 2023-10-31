@@ -1,9 +1,8 @@
 #include <iostream>
 #include "../header/Example.hpp"
 
-int MAC(int x, int y, int& sum)
+int sum(int x, int y)
 {
-    sum += x * y;
-    return sum;
+    return x + y;
 }
 
